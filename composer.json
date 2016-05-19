@@ -1,0 +1,23 @@
+{
+  "name": "swiftx/orm",
+  "type": "library",
+  "description": "PHP模型层映射组件",
+  "keywords": ["ORM","Swiftx"],
+  "homepage": "https://github.com/Swiftx/ORM",
+  "license": "GPL",
+  "authors": [
+    {
+      "name" : "胡永强",
+      "email": "odaytudio@gmail.com",
+      "role" : "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Swiftx\\ORM\\": "library/"
+    }
+  }
+}
